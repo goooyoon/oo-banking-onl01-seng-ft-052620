@@ -30,4 +30,5 @@ attr_accessor :status, :sender, :receiver, :amount
   
   def reverse_transfer
   end
+  
 end
