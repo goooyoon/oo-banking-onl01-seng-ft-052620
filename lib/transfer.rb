@@ -8,4 +8,8 @@ attr_accessor :status, :sender, :receiver, :amount
     @amount = amount
   end
   
+  def valid?
+  
+  end
+  
 end
