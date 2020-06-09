@@ -16,7 +16,7 @@ def display_balance
   "Your balance is $#{self.balance}."
 end
 
-def valid?(status, balance)
+def valid?
   if status == "open" && balance > 0
     true
     
